@@ -8,7 +8,7 @@
 void replaceDigitsAndPrint(const std::string& inputFileName) {
     std::unordered_map<char, std::string> digitMap = {
         {'0', "zero"}, {'1', "one"}, {'2', "two"}, {'3', "three"}, {'4', "four"},
-        {'5', "five"}, {'6', "six"}, {'7', "seven"}, {'8', "eight"}, {'9', "nine"}
+        {'5', "five"}, {'6', "six"}, {'7', "seven"}, {'8', "eightt"}, {'9', "nine"}
     };
 
     std::ifstream inputFile(inputFileName);
